@@ -59,5 +59,5 @@ if todos_los_empleos:
 else:
     print("No se logró extraer ninguna oferta laboral con los parámetros dados.")
 
-# Ejecutar en la terminal (con archivos abiertos en el folder del proyecto): 
+# Ejecutar en la terminal (con folder abierto donde se visualicen los archivos): 
 # python scraper_empleos_linkedin_indeed.py
