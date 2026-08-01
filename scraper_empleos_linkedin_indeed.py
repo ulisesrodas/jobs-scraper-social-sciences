@@ -3,11 +3,11 @@ from jobspy import scrape_jobs
 
 # Lista de carreras o términos exactos que deseas buscar
 carreras = [
-    "Sociologia", 
-    "Antropologia", 
-    "Ciencia Politica", 
-    "Ciencias Sociales", 
-    "Relaciones Internacionales"
+    '"Sociologia"', 
+    '"Antropologia"', 
+    '"Ciencia Politica"', 
+    '"Ciencias Sociales"', 
+    '"Relaciones Internacionales"'
 ]
 
 # Lista vacía para ir guardando los resultados de cada iteración
@@ -58,3 +58,6 @@ if todos_los_empleos:
     print("Archivo 'convocatorias_sociales_pe.csv' guardado con éxito.")
 else:
     print("No se logró extraer ninguna oferta laboral con los parámetros dados.")
+
+# Ejecutar en la terminal (con archivos abiertos en el folder del proyecto): 
+# python scraper_empleos_linkedin_indeed.py
